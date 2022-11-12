@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         mediaPlayer = MediaPlayer.create(this, R.raw.applauding)
 
-        val button = findViewById<Button>(R.id.btnClap)
-        button.setOnClickListener {
-            mediaPlayer.start()
-        }
+//        val button = findViewById<Button>(R.id.btnClap)
+//        button.setOnClickListener {
+//            mediaPlayer.start()
+//        }
     }
 }
